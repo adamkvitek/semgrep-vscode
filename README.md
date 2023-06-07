@@ -16,24 +16,24 @@ To successfully install and run the Semgrep Visual Studio Code (VS Code) extensi
 
 1. Install Semgrep locally. See [Installing and running Semgrep locally](https://semgrep.dev/docs/getting-started/#installing-and-running-semgrep-locally) in Semgrep documentation. To run Semgrep Visual Studio Code extension, you need at least Semgrep OSS Engine version 1.21.0 or higher.
 
-    Note: If you install Semgrep through Homebrew, ensure you added Homebrew to your PATH. See [My Mac .apps don’t find Homebrew utilities!](https://docs.brew.sh/FAQ#my-mac-apps-dont-find-homebrew-utilities) in Homebrew documentation.
+   Note: If you install Semgrep through Homebrew, ensure you added Homebrew to your PATH. See [My Mac .apps don’t find Homebrew utilities!](https://docs.brew.sh/FAQ#my-mac-apps-dont-find-homebrew-utilities) in Homebrew documentation.
 
 2. Install the Semgrep extension in Visual Studio Code. For more information, see [Install an extension](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-an-extension) in Visual Studio Code documentation if necessary.
 3. Optional: In Visual Studio Code, access the Command Palette by pressing <kbd>Ctrl+⇧Shift+P</kbd> or <kbd>⌘Command+⇧Shift+P</kbd> (macOS) and sign in to Semgrep Cloud Platform by running the following command:
 
-    ```
-    Semgrep: Sign in
-    ```
+   ```
+   Semgrep: Sign in
+   ```
 
-    After you run the command, click **Open** to open a new tab in your browser, and then click **Activate**.
+   After you run the command, click **Open** to open a new tab in your browser, and then click **Activate**.
 
-    Note: Sign in to improve the performance of Semgrep extension. After signing in, you can automatically scan with Semgrep [Pro rules](https://semgrep.dev/docs/semgrep-code/pro-rules/) and add additional rules from the [Rule board](https://semgrep.dev/orgs/-/board) in Semgrep Code.
+   Note: Sign in to improve the performance of Semgrep extension. After signing in, you can automatically scan with Semgrep [Pro rules](https://semgrep.dev/docs/semgrep-code/pro-rules/) and add additional rules from the [Rule board](https://semgrep.dev/orgs/-/board) in Semgrep Code.
 
 4. In Visual Studio Code, test the extension by pressing <kbd>Ctrl+⇧Shift+P</kbd> or <kbd>⌘Command+⇧Shift+P</kbd> (macOS) and run the following command:
     
-    ```
-    Semgrep: Scan all files in workspace
-    ```
+   ```
+   Semgrep: Scan all files in workspace
+   ```
 
 Find results of your scans in Visual Studio Code Problems tab. To display the Problems tab, press <kbd>⇧Shift+Ctrl+M</kbd> or <kbd>⌘Command+⇧Shift+M</kbd> (macOS).
 
